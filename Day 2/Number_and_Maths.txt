@@ -1,0 +1,64 @@
+1. Operations:
+- Addition (+)
+- Subtractions (-)
+- Division (/)
+- Multiplication (*)
+----------------------------------------------------------------
+2. Operators
+. -
+. +
+. /
+. *
+-----------------------------------------------------------------
+3. Order of Operations/Operator Precendence
+-- * and / are done first
+-- + and - are done after
+-- * and / have same priority 
+for Example: 2 * 3 / 5
+It calculate from left to right
+=====================================
+-- + and - have also same priority
+For Example 2 + 3 - 4
+It calculate from left to right
+-------------------------------------------------------------------
+4. We can use () brackets to control which part get done first.
+for Example: (1+1)-2=0
+--------------------------------------------------------------------
+5. Order of Operations(By priority)
+-- ()
+-- * /
+-- + -
+---------------------------------------------------------------------
+6. Integers 
+= 2, 4, 5
+----------------------------------------------------------------------
+7. Floats(Floating Point Numbers)
+= 2.2, 4.1, 3.1
+Unfortunately Computers have problems working with Floats.
+For Example: 
+0.1 + 0.2
+= 0.300000004
+Here it is little bit inaccurate.
++++++++++++++++++++++++++++++++++++++++++++
+Note: This doesn't happen with all floats Numbers
+For Example: 
+0.01(binary) = 0.25(decimal)
+=============================================================
+How to avoid the floating problems?
+Answer: The best practice to avoid the floating number problem use cents instead of dollars
+For Example: [using with dollars]
+20.95 + 7.99 = 28.9399999998
+Then, using with cents:
+(2095 + 799)/100 = 28.94 
+------------------------------------------------------------------
+8. Rounding number(roundoff)
+-- Use Math.round()
+for example: Math.round(2.2) = 2
+for example: Math.round(2.8) = 3
+===============================================
+We want exactly 2.89
+--Without using Math.round()
+For example: ((2095+799)*0.1) / 100 = 2.894 
+-- using Math.round()
+for example: Math.round((2095 + 799) *  0.1) / 100 =2.89
+We first calculate the result in cents and then use Math.round() and then change the cents into dollars.
