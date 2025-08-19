@@ -1,0 +1,6 @@
+Excerise :
+1. Use alert to display 'Good Morning' in popup.
+2. Display your name in a popup.
+3. Using math calculate 10 + 5 in console.
+4. Calculate 20 - 5 in the console.
+5. Calculate 2 + 2 - 5 in the console.
