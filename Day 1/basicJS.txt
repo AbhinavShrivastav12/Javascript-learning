@@ -1,0 +1,4 @@
+1. Javascript is case sensitive
+2. We have to follow the syntax rule to do JavaScript.
+3. Through JavaScript we can give instruction to the computer what it shall have to do.
+4. The syntax error example are : alert'Hello World'); Here it gives a syntaxerror message.
