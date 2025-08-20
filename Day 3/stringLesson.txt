@@ -14,3 +14,21 @@ for example: 'hello' + 3 = 'hello3'
 note: javascript automatically convert the number 3 into string.
 -- it's called type coercion  or automatic type conversion
 --string also follows the order of operation.
+------------------------------------------------------------------------------
+4. 3 ways to create string
+-- '..' For example: 'hello'
+-- ".." for example: "hello"
+by default use single quotes in javascript ' .. '
+use double quotes in situation like:
+Example: "I'm a boy" = Correct
+not use 'I'm a boy' = SyntaxError
+-- `..` for example: `hello` = 'hello' [its called template string]
+Uses of `..` : Through interpolation for example: 'Items (${1+1})' = 'Items (2)'
+-------------------------------------------------------------------------------
+5. Characters
+- letter (a,b,c,d)
+- number (1,2,3,4)
+- symbol (!,@,#,$)
+- escape (\',\",\n) [\' is rread as a single Character]
+example of escape: 'I\'m a boy' = "I'm a boy".
+Note: \n = new line Character
