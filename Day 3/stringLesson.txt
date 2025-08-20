@@ -1,0 +1,16 @@
+1. Syntax rule for string
+-- to create string we use text and round it with single or double quotes
+for example : 'hello'
+here 'hello' is the string
+-- to create multi string
+for example: 'hello'+'abhi' = 'helloabhi';
+-------------------------------------------------------------------------
+2. Numbers ans string are two different type of values in javascript.
+-- we can check what is the typeof value is by:
+for example: typeof 2 = shows number and typeof 'hello' shows string.
+-------------------------------------------------------------------------
+3. Add string and number together.
+for example: 'hello' + 3 = 'hello3'
+note: javascript automatically convert the number 3 into string.
+-- it's called type coercion  or automatic type conversion
+--string also follows the order of operation.
