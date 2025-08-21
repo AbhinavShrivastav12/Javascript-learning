@@ -1,0 +1,13 @@
+Exercise:
+1. Create a button with the text 'click' inside.
+2. Create 2 buttons. 1 with your name and 1 with your favourite food.
+3. Create a paragraph with the text 'Hello, world!' inside.
+4. Continuing from exercise 3, create a paragraph below the previous paragraph and write something you did today.
+5. Create 2 buttons 'Add to Cart' and 'Buy now'. Use CSS to give them yellow and orange background color.
+6. Add the HTML structure to exercise 5 (add <!DOCTYPE html>, <html>, <head>,<body>) and put the elements into the <head> or <body>. (in 1 and 4).
+7. Continuing from 6, change the title at the top of the tab to 'Buttons'.
+8. Continuing from 7, add a <script> element so that when the page loads, it displays the message 'Welcome!' in the console.
+9. Using HTML and CSS, try to copy the design of the amazon add to cart and buy now button.
+10. Continuing from 9, add onclick="" attribute to the two buttons: 
+- when click 'Add to cart', create a popup with the text 'Added'
+- when click 'Buy Now', display the message 'Loading...' inthe console, and then create a popup with the text 'Purchased'.
