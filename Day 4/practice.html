@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <style>
+    .button1 {
+      background-color: yellow;
+      border: solid;
+    }
+
+    .button2 {
+      background-color: orange;
+      border: solid;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Exercise: </h1>
+  <h1>Exercise: </h1>
+  <!--1. Create a button with the text 'click' inside.-->
+  <button title="Buttons">Click</button>
+  <!--2. Create 2 buttons. 1 with your name and 1 with your favourite food.-->
+  <button title="Buttons">Abhinav</button>
+  <button title="Buttons">Samosa</button>
+  <!--3. Create a paragraph with the text 'Hello, world!' inside.-->
+  <p>Hello, world!</p>
+  <!--4. Continuing from exercise 3, create a paragraph below the previous paragraph and write something you did today.-->
+  <p>I practiced javascript and HTML structure today.</p>
+  <!--5. Create 2 buttons 'Add to Cart' and 'Buy now'. Use CSS to give them yellow and orange background color.-->
+  <button class="button1" title="Buttons">
+    Add to Cart
+  </button>
+  <button class="button2" title="Buttons">
+    Buy Now
+  </button>
+  <!--6. Add the HTML structure to exercise 5 (add <!DOCTYPE html>, <html>, <head>,<body>) and put the elements into the <head> or <body>. (in 1 and 4). Already did-->
+  <!--7. Continuing from 6, change the title at the top of the tab to 'Buttons'. Already did-->
+  <!--9. Using HTML and CSS, try to copy the design of the amazon add to cart and buy now button.-->
+  <p>Adults Plain Cotton T-shirt</p>
+  <p>Price: $7.99</p>
+  <button title="Buttons" class="button1" onclick="
+  alert('Added');
+  ">
+    Add to cart
+  </button>
+  <button title="Buttons" class="button2" onclick="
+  console.log('Loading...')
+  alert('Purchased')
+  ">
+    Buy Now
+  </button>
+  <!--10. Continuing from 9, add onclick="" attribute to the two buttons: 
+- when click 'Add to cart', create a popup with the text 'Added'
+- when click 'Buy Now', display the message 'Loading...' inthe console, and then create a popup with the text 'Purchased'.-->
+  <!--8. Continuing from 7, add a <script> element so that when the page loads, it displays the message 'Welcome!' in the console.-->
+  <script>
+    console.log('Welcome!');
+  </script>
 </body>
-<script src="answer.js"></script>
+
 </html>

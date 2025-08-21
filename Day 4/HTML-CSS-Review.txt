@@ -1,0 +1,28 @@
+HTML CSS and Javascript
+HTML = Creates Content
+CSS = Changes the appearance
+Javascript = makes it interactive
+------------------------------------------
+HTML (Hyper Text Markup Language)
+-- Giving instruction to a computer.
+-- HTML elements [example: <button></button>, <p></p>, <h1></h1>]
+-- HTML tag [example: <buton>, <p>]
+-- Nesting = element inside an element [example: <h1>Hello <P>Hi</P></h1>]
+-- Web Page = A single page (on a website) [example: homepage, cartpage, etc]
+----------------------------------------------------------------------------------
+CSS (Cascading Style Sheet)
+-- Changes the appearance.
+-- select which element is to Change.
+-- CSS property [example: background, border, padding, etc]
+-- CSS Value [example: red, white, 25px ,etc]
+--------------------------------------------------------------------------------------
+HTML Attributes
+-- Attributes change the behavior of the element.
+-- If we hover an element we see more info. [example: <p title="tooltip">Hello</p>] its called tooltip.
+-- Class attribute adds a label to an element.
+-- To use mordern version of HTML use <!DOCTYPE html>
+-- The <html> </html> = entire web page
+-- <head> contain information about the page and that is not visible on the page goes inside the <head></head>.
+-- <body> element suppose to contain everything that is visible on the page
+-- Indents are the spaces to read the code in an simple way [example: if we give css style like button{bg-color: red, and hit enter there will create certain space fro the next line code.}]
+-- To add indents we have to press tab and to remove we have to press shift + tab before where we want it.
