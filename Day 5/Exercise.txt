@@ -1,0 +1,27 @@
+Exercise: 
+1. Create a <script> element. Inside it , create a new variable called 'name', and save your name in this variable.
+2. Continuing from 1, display the message 'My name is: ${name}' in the console.
+3. At a resturant, your order 1 coffee ($5), 2 bagel ($3 each), and 1 soup ($9). Calculate the cost and save it in a variable called 'cost'.
+4. Continuing from 3, display 'Cost of food: $${cost}' in the console.
+5. Let's say the resturant charges a 10% tax. Using the 'cost' variable from 3, Calculate the tax and save the result ina  variable.
+6. Continuing from 5, display 'Tax (10%): $${tax}' in the console.
+7. Continuing from 6, Calculate the total (cost + tax) , save it in a variable name 'totalCost', and display a message 'Total cost: $${totalCost}' in the console.
+8. In the cart quantuty project, add 2 more buttons '+4' and '+5', which inscrease the quantity by 4 and 5, when you click them (use += like this).
+9. In the cart quantity project, add a button 'Remove from Cartt', which descrease the cart quantity by 1.
+10. Ass 2 button '-2' and '-3', which descrease the quantity by 2 and 3.
+11. use the shortcuts -- and -= in 9 and 10
+--challenging questions:
+12. Create a new file calculator.html.
+13. Add the html structure. Add a <title> with the text 'Calculator'.
+14. Create the buttons [1,2,3,+,=].
+15. Create a <script>, create a variable called'Calculation', and save an empty string inside: let calculator= '';
+(this variable store Calculationlike '1+2')
+16. When we click on '1' button:
+- Add the string '1' to the Calculation variable: Calculation +=1;
+--Display the Calculationin the console: console.log(Calculation);
+17. Do the same for '2','3' and '+' buttons (add ' + ' instaed of '+' )
+18. When we click the '=' button, use code: eval(Calculation);
+-- (eval(....) converts the Calculation string into actual match)
+-- save the result back om 'Calculation': caculation = eval(calculation);
+-- Display the result in the console: console.log(calculation);
+19: Create the rest of the button in the calculator. To create multiple rows of button, put the button inside <p> element[like <p>< button> hello </button></p>] 
