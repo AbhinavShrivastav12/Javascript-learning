@@ -1,0 +1,18 @@
+1. What is variable?
+-- A variable is a container which stores number and string in it and then we can use the value.
+2. Syntax rule for the variable
+-- The word let create a new variable
+-- Cannot use special words to create a variable. Like let, var, etc. these are reserved words in javascript. example let let = 3;
+-- Cannot start with the number: let 2hey = 'hello';
+-- Cannot use special characters except: $... like let name@! = 4; or let name two = 5;
+-- However we can use $ and _ for creating a variable. like let $let = 4; or let _he = 5;
+-- Assigning the value to variable 
+[example: let variable1 = 3; console.log(variable1); //3 ]
+-- reassiging value to the variable
+[example: variable! = 5; console.log(variable1); //5] -- here we don't use let because it already defined up
+-- let means creating a new variable
+-- In javascript for declaringa  variable name use camelcase [example: cartQuantity]
+-Const also use to create the value of the variable but we can't change the value later. [example: const a =1;]
+const make the code safer and easier to understand.
+--var is also used to create the variable just like let we can change the value later.
+-- var is the original way to create a variable [ var = variable]
