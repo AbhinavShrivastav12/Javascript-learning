@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+         <!-- 8. In the cart quantity project, add 2 more buttons '+4' and '+5', which inscrease the quantity by 4 and 5, when you click them (use += like this). -->
+          <button onclick="
+          cartQuantity+=4;
+          console.log(`Cart Quantity = ${cartQuantity}`);
+          ">
+          +4
+        </button>
+        <button onclick="cartQuantity+=5; 
+        console.log(`Cart Quantity = ${cartQuantity}`)" 
+        >
+            +5
+        </button>
+        <!-- 9. In the cart quantity project, add a button 'Remove from Cart', which descrease the cart quantity by 1. -->
+         <button
+        onclick="cartQuantity-=1 ; console.log(`Cart Quantity = ${cartQuantity}`)"
+         >
+         Remove from Cart
+        </button>
+        <!-- 10. Add 2 button '-2' and '-3', which descrease the quantity by 2 and 3. -->
+         <button onclick="cartQuantity-=2; console.log(`Cart Quantity = ${cartQuantity}`)">-2</button>
+         <button onclick="cartQuantity-=3; console.log(`Cart Quantity = ${cartQuantity}`)">-3</button>
+    
+</body>
+<script>
+    // 1. Create a <script> element. Inside it , create a new variable called 'name', and save your name in this variable.
+    let name = 'Abhinav';
+    // 2. Continuing from 1, display the message 'My name is: ${name}' in the console.
+    console.log(`My name is:${name}`);
+    // 3. At a resturant, your order 1 coffee ($5), 2 bagel ($3 each), and 1 soup ($9). Calculate the cost and save it in a variable called 'cost'.
+    let coffee = 5;
+    let bagel = (3*2);//$3 for each * 2 bagel
+    let soup = 9;
+    let cost = (coffee+bagel+soup);
+    // 4. Continuing from 3, display 'Cost of food: $${cost}' in the console.
+    console.log(`Cost of food: $${cost}`);//20
+    // 5. Let's say the resturant charges a 10% tax. Using the 'cost' variable from 3, Calculate the tax and save the result in a  variable.
+    let taxCharge = 0.10;
+    let tax = (cost*taxCharge);
+    // 6. Continuing from 5, display 'Tax (10%): $${tax}' in the console.
+    console.log(`Tax (10%): $${tax}`); //2
+    // 7. Continuing from 6, Calculate the total (cost + tax) , save it in a variable name 'totalCost', and display a message 'Total cost: $${totalCost}' in the console.
+    let totalCost = (cost+tax);
+    console.log(`Total cost: $${totalCost}`);//22
+    //for 8
+    let cartQuantity = 0;
+</script>
+</html>

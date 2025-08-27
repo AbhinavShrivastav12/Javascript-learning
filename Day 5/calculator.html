@@ -1,0 +1,30 @@
+<!-- 12. Create a new file calculator.html. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--13. Add the html structure. Add a <title> with the text 'Calculator'.-->
+    <title>Calculator</title>
+ </head>
+ <body>
+    <!-- 14. Create the buttons [1,2,3,+,=]. -->
+     <!-- 16. When we click on '1' button:
+- Add the string '1' to the Calculation variable: Calculation +=1;
+--Display the Calculationin the console: console.log(Calculation); -->
+     <button onclick="calculation ++ ; console.log(calculation)">1</button>
+     <!-- 17. Do the same for '2','3' and '+' buttons (add ' + ' instaed of '+' ) -->
+     <button onclick="calculation +=2; console.log(calculation) ">2</button>
+     <button onclick="calculation +=3; console.log(calculation)">3</button>
+     <button onclick="calculation += ' + '; console.log(calculation)">+</button>
+     <!-- 18. When we click the '=' button, use code: eval(Calculation); -->
+     <button onclick="console.log(eval(calculation))">=</button>
+     <!-- 19: Create the rest of the button in the calculator. To create multiple rows of button, put the button inside <p> element[like <p>< button> hello </button></p>]  -->
+      <button onclick="calculation = '' ">Reset</button>
+ </body>
+ <!-- 15. Create a <script>, create a variable called'Calculation', and save an empty string inside: let calculator= '';
+(this variable store Calculationlike '1+2') -->
+ <script>
+    let calculation = '';
+ </script>
+ </html>

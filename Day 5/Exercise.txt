@@ -6,9 +6,9 @@ Exercise:
 5. Let's say the resturant charges a 10% tax. Using the 'cost' variable from 3, Calculate the tax and save the result ina  variable.
 6. Continuing from 5, display 'Tax (10%): $${tax}' in the console.
 7. Continuing from 6, Calculate the total (cost + tax) , save it in a variable name 'totalCost', and display a message 'Total cost: $${totalCost}' in the console.
-8. In the cart quantuty project, add 2 more buttons '+4' and '+5', which inscrease the quantity by 4 and 5, when you click them (use += like this).
-9. In the cart quantity project, add a button 'Remove from Cartt', which descrease the cart quantity by 1.
-10. Ass 2 button '-2' and '-3', which descrease the quantity by 2 and 3.
+8. In the cart quantity project, add 2 more buttons '+4' and '+5', which inscrease the quantity by 4 and 5, when you click them (use += like this).
+9. In the cart quantity project, add a button 'Remove from Cart', which descrease the cart quantity by 1.
+10. Add 2 button '-2' and '-3', which descrease the quantity by 2 and 3.
 11. use the shortcuts -- and -= in 9 and 10
 --challenging questions:
 12. Create a new file calculator.html.

@@ -16,3 +16,8 @@
 const make the code safer and easier to understand.
 --var is also used to create the variable just like let we can change the value later.
 -- var is the original way to create a variable [ var = variable]
+-------------------------------------------------------------------------------------
+- camelCase = cartQuantity [first word first letter small and second word first letter is capital]
+- PascalCase = CartQuantity [first word first letter capital and second word first letter is also capital]
+- kebab-case = cart-quantity [- between the words]
+- snake_case = cart_qunatity [ _ between the words]
